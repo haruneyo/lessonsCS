@@ -118,31 +118,31 @@
 ///     }
 /// }
 // 47. Написать программу копирования массива
-int[] array = new int[5];
-FillArray(array, 0, 10);
-PrintArray(array);
-PrintArray(CopyArray(array));
-void FillArray(int[] a, int min, int max)
-{
-    for (int i = 0; i < a.Length; i++)
-    {
-        a[i] = new Random().Next(min, max + 1);
-    }
-}
-void PrintArray(int[] a)
-{
-    for (int i = 0; i < a.Length; i++)
-    {
-        System.Console.Write($"{a[i]} ");
-    }
-    System.Console.WriteLine();
-}
-int[] CopyArray(int[] array)
-{
-    int[] copy = new int[array.Length];
-    for (int i = 0; i < copy.Length; i++)
-    {
-        copy[i] = array[i];
-    }
-    return copy;
-}
+// int[] array = new int[5];
+// FillArray(array, 0, 10);
+// PrintArray(array);
+// PrintArray(CopyArray(array));
+// void FillArray(int[] a, int min, int max)
+// {
+//     for (int i = 0; i < a.Length; i++)
+//     {
+//         a[i] = new Random().Next(min, max + 1);
+//     }
+// }
+// void PrintArray(int[] a)
+// {
+//     for (int i = 0; i < a.Length; i++)
+//     {
+//         System.Console.Write($"{a[i]} ");
+//     }
+//     System.Console.WriteLine();
+// }
+// int[] CopyArray(int[] array)
+// {
+//     int[] copy = new int[array.Length];
+//     for (int i = 0; i < copy.Length; i++)
+//     {
+//         copy[i] = array[i];
+//     }
+//     return copy;
+// }
